@@ -25,6 +25,7 @@ setup(
             'multiprocess = lode_runner.plugins.multiprocess:MultiProcess',
             'testid = lode_runner.plugins.testid:TestId',
             'initializer = lode_runner.plugins.initializer:Initializer',
+            'argumentslogger = lode_runner.plugins.argumentslogger:ArgumentsLogger',
         ]
     },
     classifiers=[

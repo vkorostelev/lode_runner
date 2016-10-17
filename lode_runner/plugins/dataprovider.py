@@ -40,6 +40,9 @@ class CustomString(object):
 
 class Dataprovider(Plugin):
     name = 'dataprovider'
+    enabled = False
+    enableOpt = None
+
 
     def options(self, parser, env):
         """Sets additional command line options."""
